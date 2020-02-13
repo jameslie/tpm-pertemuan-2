@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayo Menghitung Luas"
+        android:textAlignment="center"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        android:textColor="#f00001"/>
+
+    <Button
+        android:id="@+id/b_segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Segitiga"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="150dp"
+        android:onClick="OnShowSegitiga"/>
+
+    <Button
+        android:id="@+id/b_jajargenjang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Jajar Genjang"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="15dp"
+        android:onClick="OnShowJajargenjang"/>
+
+    <Button
+        android:id="@+id/b_persegi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Persegi"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="OnShowPersegi"/>
+
+    <ImageView
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anime"/>
+
+</LinearLayout>
